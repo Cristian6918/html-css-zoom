@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+a{text-decoration:none;}
+
+ul{
+    display:flex;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    align-items:center;
+    
+}
+ul li{
+    display:inline;
+    list-style-type: none;
+    margin:0 0.5rem;
+}
+
+i.icon{
+    font-weight: 900;
+    font-size:2.5rem;
+    font-family: "Font Awesome 5 Free";
+    color: white;
+    padding:0.5em;
+}
+
+i.more{ font-weight: 900;
+    font-size:1.5rem;
+    font-family: "Font Awesome 5 Free";
+    color: white;
+}
+
+i:hover{
+    color:lightblue;
+}
+.center{
+    justify-content: center;
+
+}
+.green{
+    font-weight: 900;
+    font-size:2.5rem;
+    font-family: "Font Awesome 5 Free";
+    color: green;
+    padding:0.5em;
+}
+
+
+/* utilities */
+.flex{
+    display: flex;
+}
+
+.vh100{
+    height: 100vh;
+}
+
+.w100{
+    width:100%;
+}
+
+
+.wrapper{
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+}
+.start-align{
+    align-self: flex-start;
+}
+
+.edn-align{
+    align-self: flex-end;
+}
+
+/******** main****** */
+
+main{
+    background-color: red;
+    flex-grow:2;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***** footer *****/
+
+footer{
+    display: flex;
+    min-height: 10vh;
+    width: 100%;
+    background-color: black;
+    justify-self: flex-end;
+    
+}
+
+#footer{
+    display: flex;
+    justify-items:center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.central-foot{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.lateral-foot{
+    width:20%;
+    display: flex;
+    justify-items: flex-start;
+}
+
+
+#end{
+    background-color:red;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    
+    font-weight: 900;
+}
+
+#footer a{
+    display:flex;
+    flex-direction:column;
+}
+
+
+    
+    
